@@ -1,0 +1,85 @@
+{ 
+    "about_me": "About me",
+    "competences":"COMPETENCES",
+    "professional_skills_header": "SKILLS",
+    "project": "Projects",
+    "training": "training",
+    "experience": "Experience",
+    "contact":"Contact",
+    "change_lang": "Cambiar a español",
+
+    "work": "Software Engineer, Web Developer",
+
+    "contact_me": "Contact me",
+    "cv_download": "Download my CV",
+    
+    
+    "button_linkedin_title": "Check my LinkedIn profile",
+    "button_github_title": "Check my GitHub profile",
+    "button_gitlab_title": "Check my GitLab profile",
+    
+    "about_me_2": "ABOUT ME",
+    "about_me_p1": "esto es en ingles",
+    "about_me_p2":"Estudio Ingeniería informática - Ingeniería del software en la Universidad de Sevilla y trabajo en el grupo de investigación <a href='http://iwt2.org/' target='_blank'>Ingeniería Web y Testing Temprano (IWT2)</a>.",
+    "about_me_p3":"Cuento con permiso de circulación B y vehículo propio, así como disponibilidad para viajar y flexibilidad horaria.",
+    "basic_information": "BASIC INFORMATION",
+    "email_label": "Email",
+    "age_label": "Age",
+    "phone_label": "Phone",
+    "address_label": "Adress",
+    "address": "Calle Tarfia número 47, bajo derecha, 41012, Sevilla, España",
+    "languages_label": "Languages",
+    "languages": "Spanish, English",
+
+
+    "competence_1":"Teamwork",
+    "competence_2":"Motivation for achievement",
+    "competence_3":"Learning ability",
+    "competence_4":"Adaptability",
+    "competence_5":"Responsibility",
+    "competence_6":"Perseverance",
+    "competence_7":"Commitment",
+    "competence_8":"Communication",
+
+
+    "professional_skills": "PROFESSIONAL SKILLS",
+    "programming_languages":"programming languages",
+    "SO": "O.S.",
+    "databases": "Databases",
+    "work_methodologies":"Methodologies",
+    "versionControl":"Version control",
+    "others":"Others",
+    "basic_level": "Basic level",
+    "intermediated_level": "Intermediated level",
+    "advanced_level": "Advanced level",
+
+
+    "pointbar_position": "Back-end developer",
+    "pointbar_p1": "Pointbar es una aplicación web progresiva que permite a bares atraer clientes y premiar a los más fieles con puntos canjeables por comida gratis. ¿Por qué no jugar con la comida?",
+    "pointbar_p2": "Pointbar ha sido un proyecto llevado a cabo durante mi cuarto año de carrera para la asignatura Ingeniería del Software y Práctica Profesional (ISPP). Este proyecto fue galardonado con matrícula de honor.",
+    "pointbar_p3":"Puede encontrar más información sobre el proyecto <a href='https://www.youtube.com/channel/UCM3sSHPrM2MVzG21C70PVuw?app=desktop' target='_blank'>Aquí</a>.",
+
+    "decide_position": "Developer",
+    "decide_p1": "Implementación de una plataforma de voto electrónico seguro, asegurando la anonimicidad y el secreto del voto.",
+    "decide_p2": "Se trata de un proyecto educativo, pensado para el estudio de sistemas de votación, por lo que prima la simplicidad por encima de la eficiencia cuando sea posible. Por lo tanto se asumen algunas carencias para permitir que sea entendible y extensible.",
+    
+    "pedrosowildlifezoo_position": "Desarrollador",
+    "pedrosowildlifezoo_p1": "Implementación de una plataforma de voto electrónico seguro, asegurando la anonimicidad y el secreto del voto.",
+    "pedrosowildlifezoo_p2": "Se trata de un proyecto educativo, pensado para el estudio de sistemas de votación, por lo que prima la simplicidad por encima de la eficiencia cuando sea posible. Por lo tanto se asumen algunas carencias para permitir que sea entendible y extensible.",
+    
+    "seventhartsaddicts_position": "Desarrollador",
+    "seventhartsaddicts_p1": "Implementación de una plataforma de voto electrónico seguro, asegurando la anonimicidad y el secreto del voto.",
+    "seventhartsaddicts_p2": "Se trata de un proyecto educativo, pensado para el estudio de sistemas de votación, por lo que prima la simplicidad por encima de la eficiencia cuando sea posible. Por lo tanto se asumen algunas carencias para permitir que sea entendible y extensible.",
+    
+    "jarvis_position": "Todas fue mi TFG",
+    "jarvis_p1": "Implementación de una plataforma de voto electrónico seguro, asegurando la anonimicidad y el secreto del voto.",
+    "jarvis_p2": "Se trata de un proyecto educativo, pensado para el estudio de sistemas de votación, por lo que prima la simplicidad por encima de la eficiencia cuando sea posible. Por lo tanto se asumen algunas carencias para permitir que sea entendible y extensible.",
+    
+    
+    "airpa_position": "Research",
+    "airpa_p1": "Proyecto de inovación (I+D+I) dedicado a Potenciar las soluciones RPA (Robotic Process Automation) con componentes AI (Artificial Intelligence), con el objeto de reducir la participación humana en la ejecución y en el mantenimiento de los procesos que se automatizan.",
+    "airpa_p2": "El proyecto ha sido desarrollado por la colaboración entre Servinform y IWT2",
+    "airpa_p3":"Topics: Robotic Process Automation (RPA), Artificial Intelligence (AI), Cognitive Robotic Process Automation (CRPA), Machine Learning (ML), Natural Language Processing (NLP), Data Science, Data Consulting.",
+    "airpa_p4": "Puede consultar más información sobre el proyecto <a href='https://www.servinform.es/wp-content/uploads/2020/02/Servinform-AIRPA-Publicidad-web-corporativa.pdf' target='_blank'>Aquí</a>."
+    
+}    

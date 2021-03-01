@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CV José Manuel Aguza Barragán</title>
-    <meta name="description" content="CV José Manuel Aguza Barragán"/>
+    <title>José Manuel Aguza Barragán</title>
+    <meta name="description" content="CV José Manuel Aguza Barragán"/>  
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/aos.css" rel="stylesheet">
@@ -19,13 +19,14 @@
           <div class="container">
             <div class="collapse navbar-collapse justify-content-end" id="navigation">
               <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">Sobre mí</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#competencias">Competencias</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#services">Habilidades</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#formacion">Formación</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experiencia">Experiencia</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about" data-translate="about_me"></a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#competencias" data-translate="competences"></a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skills" data-translate="professional_skills_header"></a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#project" data-translate="project"></a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#formacion" data-translate="training"></a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experiencia" data-translate="experience"></a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact" data-translate="contact"></a></li>
+                <li class="nav-item"><a id="change_lang" class="nav-link smooth-scroll" href="#" data-translate="change_lang"></a></li>
               </ul>
             </div>
           </div>
@@ -42,52 +43,60 @@
         <div class="content-center">
           <div class="cc-profile-image"><a href="#"><img src="images/aguza.jpg" alt="Image"/></a></div>
           <div class="h2 title">José Manuel Aguza Barragán</div>
-          <p class="category text-white">Ingeniero de software, Desarrollador web</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Contáctame</a><a class="btn btn-primary" target="_blank" href="cv.pdf" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Descargar CV</a>
+          <p class="category text-white" data-translate="work"></p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor" data-translate="contact_me"></a><a class="btn btn-primary" target="_blank" href="cv.pdf" data-aos="zoom-in" data-aos-anchor="data-aos-anchor" data-translate="cv_download"></a>
         </div>
       </div>
+
+      <!-- Social -->
       <div class="section">
         <div class="container">
-          <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" target="_blank" href="https://www.linkedin.com/in/jos%C3%A9-manuel-aguza-barrag%C3%A1n-18a1521b3/" rel="tooltip" title="Check my LinkedIn"><i class="fa fa-linkedin"></i></a><a class="btn btn-default btn-round btn-lg btn-icon"  target="_blank" href="https://gitlab.com/Aguza5" rel="tooltip" title="Check my GitLab"><i class="fa fa-gitlab"></i></a><a class="btn btn-default btn-round btn-lg btn-icon"  target="_blank" href="https://github.com/Aguza5" rel="tooltip" title="Check my GitHub"><i class="fa fa-github"></i></a></div>
+          <div class="button-container">
+            <a id="button_linkedin" class="btn btn-default btn-round btn-lg btn-icon" target="_blank" href="https://www.linkedin.com/in/jos%C3%A9-manuel-aguza-barrag%C3%A1n-18a1521b3/" rel="tooltip"><i class="fa fa-linkedin"></i></a>
+            <a id="button_gitlab" class="btn btn-default btn-round btn-lg btn-icon"  target="_blank" href="https://gitlab.com/Aguza5" rel="tooltip"><i class="fa fa-gitlab"></i></a>
+            <a id="button_github" class="btn btn-default btn-round btn-lg btn-icon"  target="_blank" href="https://github.com/Aguza5" rel="tooltip"><i class="fa fa-github"></i></a>
+          </div>
         </div>
       </div>
+
     </div>
   </div>
 </div>
+
+<!-- About -->
 <div class="section" id="about">
   <div class="container">
     <div class="card" data-aos="fade-up" data-aos-offset="10">
       <div class="row">
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
-            <div class="h4 mt-0 title">SOBRE MÍ</div>
-            <p>Mi nombre es José Manuel Aguza Barragán. Nací el 19 de junio de 1998. Resido en <a href="https://es.wikipedia.org/wiki/El_Pedroso" target="_blank">El Pedroso</a>, provincia de Sevilla (España).</p> 
-            <p>Estudio Ingeniería informática - Ingeniería del software en la Universidad de Sevilla y trabajo en el grupo de investigación <a href="http://iwt2.org/" target="_blank">Ingeniería Web y Testing Temprano (IWT2)</a>.
-            </p>
-            <p>Cuento con permiso de circulación B y vehículo propio, así como disponibilidad para viajar y flexibilidad horaria.</p>
+            <div class="h4 mt-0 title"  data-translate="about_me_2"></div>
+            <p data-translate="about_me_p1">).</p> 
+            <p data-translate="about_me_p2"></p>
+            <p data-translate="about_me_p3"></p>
           </div>
         </div>
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
-            <div class="h4 mt-0 title">INFORMACIÓN BÁSICA</div>
+            <div class="h4 mt-0 title" data-translate="basic_information"></div>
             <div class="row">
-              <div class="col-sm-4"><strong >Edad:</strong></div>
+              <div class="col-sm-4"><strong data-translate="age_label"></strong></div>
               <div class="col-sm-8">22</div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong >Correo electrónico:</strong></div>
+              <div class="col-sm-4"><strong data-translate="email_label"></strong></div>
               <div class="col-sm-8">jmaguzab@gmail.com</div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong>Teléfono:</strong></div>
-              <div class="col-sm-8">+34 672102851</div>
+              <div class="col-sm-4"><strong data-translate="phone_label"></strong></div>
+              <div class="col-sm-8">(+34) 672102851</div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong >Dirrección:</strong></div>
-              <div class="col-sm-8">Finca las Jarillas, s/n (El Pedroso, Sevilla)</div>
+              <div class="col-sm-4"><strong data-translate="address_label"></strong></div>
+              <div class="col-sm-8" data-translate="address"></div>
             </div>
             <div class="row mt-3">
-              <div class="col-sm-4"><strong >Idiomas:</strong></div>
-              <div class="col-sm-8">Español e inglés</div>
+              <div class="col-sm-4"><strong data-translate="languages_label"></strong></div>
+              <div class="col-sm-8" data-translate="languages"></div>
             </div>
           </div>
         </div>
@@ -96,56 +105,59 @@
   </div>
 </div>
 
+
+<!-- COMPETENCES-->
+
 <div class="section" id="competencias">
   <div class="container cc-education">
-  <div class="h4 text-center mb-4 title">COMPETENCIAS</div>
+  <div class="h4 text-center mb-4 title" data-translate="competences"></div>
   <div class="row">
 
       <div class="col-lg-3 col-md-6">
         <div class=" text-center  bg-primary border" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500" style="height: 200px;">
-          <div class="h3 cc-education-header">Habilidad para trabajar en equipo</div>
+          <div class="h3 cc-education-header" data-translate="competence_1"></div>
         </div>
       </div>
     
       <div class="col-lg-3 col-md-6">
         <div class="p-3  text-center  bg-primary border" data-aos="fade-right" data-aos-offset="70" data-aos-duration="600" style="height:200px;">
-          <div class="h3 cc-education-header">Motivación por el logro</div>
+          <div class="h3 cc-education-header"data-translate="competence_2"></div>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-6">
         <div class="p-3  text-center  bg-primary border" data-aos="fade-right" data-aos-offset="90" data-aos-duration="700"style="height: 200px;">
-          <div class="h3 cc-education-header">Capacidad de aprendizaje</div>
+          <div class="h3 cc-education-header"data-translate="competence_3"></div>
         </div>
       </div>
       
       <div class="col-lg-3 col-md-6">
         <div class="p-3  text-center  bg-primary border" data-aos="fade-right" data-aos-offset="100" data-aos-duration="800"style="height: 200px;">
-          <div class="h3 cc-education-header">Capacidad de adaptación</div>
+          <div class="h3 cc-education-header"data-translate="competence_4"></div>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-6">
         <div class="p-3  text-center  bg-primary border" data-aos="fade-right" data-aos-offset="120" data-aos-duration="900" style=" height: 180px;">
-          <div class="h3 cc-education-header">Responsabilidad</div>
+          <div class="h3 cc-education-header" data-translate="competence_5"></div>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-6">
         <div class="p-3  text-center  bg-primary border" data-aos="fade-right" data-aos-offset="140" data-aos-duration="1000" style="height: 180px;">
-          <div class="h3 cc-education-header">Perseverancia</div>
+          <div class="h3 cc-education-header" data-translate="competence_6"></div>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-6">
         <div class="p-3  text-center  bg-primary border" data-aos="fade-right" data-aos-offset="160" data-aos-duration="1200" style="height: 180px;">
-          <div class="h3 cc-education-header">Compromiso</div>
+          <div class="h3 cc-education-header" data-translate="competence_7"></div>
         </div>
       </div>
 
       <div class="col-lg-3 col-md-6">
         <div class="p-3  text-center  bg-primary border" data-aos="fade-right" data-aos-offset="180" data-aos-duration="1400" style="height: 180px;">
-          <div class="h3 cc-education-header">Comunicación</div>
+          <div class="h3 cc-education-header" data-translate="competence_8"></div>
         </div>
       </div>
       
@@ -155,473 +167,514 @@
     </div>
 </div>
 
-<!-- Services know lenguages-->
-<section class="page-section" id="services">
-  <div class="container">
-    <div class="h4 text-center mb-4 title"></div>
-    <div class="h4 text-center mb-4 title">HABILIDADES</div>
-    <div class="h5 text-center mb-4 subtitle"><strong> <i>Lenguajes</i> </strong></div>
-      <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
-              <div class="mt-5">
-                  <i class="fas fa-4x fa-gem text-primary mb-4"><img src="images/python.png" width="100" height="100" alt="Python"/></i>
-                  <h3 class="h4 mb-2">Python</h3>
-                  <p class="text-muted mb-0">Nivel intermedio</p>
-              </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-              <div class="mt-5">
-                  <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/java.png"  height="100" alt="Java"/></i>
-                  <h3 class="h4 mb-2">Java</h3>
-                  <p class="text-muted mb-0">Nivel intermedio</p>
-              </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="mt-5">
-                <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/php.png" width="140" height="100" alt="Php"/></i>
-                <h3 class="h4 mb-2">PHP</h3>
-                <p class="text-muted mb-0">Nivel básico</p>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-              <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/c++.png" width="100" height="100" alt="C++"/></i>
-              <h3 class="h4 mb-2">C++</h3>
-              <p class="text-muted mb-0">Nivel básico</p>
-          </div>
-      </div>
-      
-      <div class="col-lg-1 col-md-6 text-center">
-        <div class="mt-5">
-            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-            <h3 class="h4 mb-2"></h3>
-            <p class="text-muted mb-0"></p>
-        </div>
-    </div>
+<!--Profesional skills-->
 
-    <div class="col-lg-3 col-md-6 text-center">
-      <div class="mt-5">
-          <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/js.png" height="120" alt="Javascript"/></i>
-          <h3 class="h4 mb-2">Javascript </h3>
-          <p class="text-muted mb-0">Nivel intermedio</p>
-      </div>
-    </div>
-
-    <div class="col-lg-3 col-md-6 text-center">
-      <div class="mt-5">
-          <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/html.png" height="120" alt="HTML"/></i>
-          <h3 class="h4 mb-2">HTML</h3>
-          <p class="text-muted mb-0">Nivel intermedio</p>
-      </div>
-  </div>
-  <div class="col-lg-3 col-md-6 text-center">
-    <div class="mt-5">
-        <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/css.png" height="120" alt="CSS"/></i>
-        <h3 class="h4 mb-2">CSS</h3>
-        <p class="text-muted mb-0">Nivel intermedio</p>
-    </div>
-  </div> 
-
-   
-</section>
-
-<!-- Services frameworks-->
-<section class="page-section" id="services">
-  <div class="container">
-    <div class="h4 text-center mb-4 title"> </div>
-    <br><br><div class="h5 text-center mb-4 subtitle"><strong> <i>Frameworks</i> </strong></div>
-      <div class="row">
-
-        <div class="col-lg-1 col-md-6 text-center">
-          <div class="mt-5">
-              <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-              <h3 class="h4 mb-2"></h3>
-              <p class="text-muted mb-0"></p>
-          </div>
-      </div>
-
-    <div class="col-lg-3 col-md-6 text-center">
-      <div class="mt-5">
-          <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/angular.png" height="100" alt="Angular"/></i>
-          <h3 class="h4 mb-2">Angular</h3>
-          <p class="text-muted mb-0">Nivel básico</p>
-      </div>
-  </div>
-
-  <div class="col-lg-3 col-md-6 text-center">
-    <div class="mt-5">
-        <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/sprint.png" height="100" alt="Sprint"/></i>
-        <h3 class="h4 mb-2">Sprint</h3>
-        <p class="text-muted mb-0">Nivel intermedio</p>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 text-center">
-  <div class="mt-5">
-      <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/django.png" height="100" alt="Django"/></i>
-      <h3 class="h4 mb-2">Django</h3>
-      <p class="text-muted mb-0">Nivel intermedio</p>
-  </div>
-</div>
-         
-</div>
-  </div>
-</section>
-
-<!-- Services Platforms-->
-<section class="page-section" id="services">
-  <div class="container">
-    <div class="h4 text-center mb-4 title"> </div>
-    <br><br> <div class="h5 text-center mb-4 subtitle"><strong> <i>Plataformas</i> </strong></div>
-      <div class="row">
-
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-              <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-              <h3 class="h4 mb-2"></h3>
-              <p class="text-muted mb-0"></p>
-          </div>
-      </div>
-
-          <div class="col-lg-3 col-md-6 text-center">
-              <div class="mt-5">
-                  <i class="fas fa-4x fa-gem text-primary mb-4"><img src="images/windows.png" width="100" height="100" alt="Windows"/></i>
-                  <h3 class="h4 mb-2">Windows</h3>
-                  <p class="text-muted mb-0">Nivel intermedio</p>
-              </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-              <div class="mt-5">
-                  <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/ubuntu.png"  height="100" alt="Ubuntu"/></i>
-                  <h3 class="h4 mb-2">Ubuntu</h3>
-                  <p class="text-muted mb-0">Nivel intermedio</p>
-              </div>
-          </div>
-         
-</div>
-  </div>
-</section>
-
-
-<!-- Services data bases-->
-<section class="page-section" id="services">
-  <div class="container">
-    <div class="h4 text-center mb-4 title"> </div>
-    <br> <br> <div class="h5 text-center mb-4 subtitle"><strong> <i>Bases de datos</i> </strong></div>
-      <div class="row">
-
-    <div class="col-lg-3 col-md-6 text-center">
-      <div class="mt-5">
-          <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/mysql.png" height="120" alt="Mysql"/></i>
-          <h3 class="h4 mb-2">Mysql</h3>
-          <p class="text-muted mb-0">Nivel intermedio</p>
-      </div>
-  </div>
-
-  <div class="col-lg-3 col-md-6 text-center">
-    <div class="mt-5">
-        <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/postgres.png" height="120" alt="PostgreSQL"/></i>
-        <h3 class="h4 mb-2">PostgreSQL</h3>
-        <p class="text-muted mb-0">Nivel intermedio</p>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 text-center">
-  <div class="mt-5">
-      <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/sqlite.png" height="120" alt="SQlite"/></i>
-      <h3 class="h4 mb-2">SQlite</h3>
-      <p class="text-muted mb-0">Nivel básico</p>
-  </div>
-</div>
-
-<div class="col-lg-3 col-md-6 text-center">
-  <div class="mt-5">
-      <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/firebase.png" height="120" alt="Firebase"/></i>
-      <h3 class="h4 mb-2">Firebase</h3>
-      <p class="text-muted mb-0">Nivel básico</p>
-  </div>
-</div>
-         
-</div>
-  </div>
-</section>
-
-<!-- Services cloud-->
-<section class="page-section" id="services">
-  <div class="container">
-    <div class="h4 text-center mb-4 title"> </div>
-    <br> <br> <div class="h5 text-center mb-4 subtitle"><strong> <i>Cloud</i> </strong></div>
-      <div class="row">
-
-    <div class="col-lg-3 col-md-6 text-center">
-      <div class="mt-5">
-          <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/heroku.png" height="120" alt="Heroku"/></i>
-          <h3 class="h4 mb-2">Heroku</h3>
-          <p class="text-muted mb-0">Nivel intermedio</p>
-      </div>
-  </div>
-
-  <div class="col-lg-3 col-md-6 text-center">
-    <div class="mt-5">
-        <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/googlecloud.png" height="120" alt="Google Cloud"/></i>
-        <h3 class="h4 mb-2">Google Cloud</h3>
-        <p class="text-muted mb-0">Nivel básico</p>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 text-center">
-  <div class="mt-5">
-      <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/clever-cloud.png" height="120" alt="Clever Cloud"/></i>
-      <h3 class="h4 mb-2">Clever Cloud</h3>
-      <p class="text-muted mb-0">Nivel básico</p>
-  </div>
-</div>
-
-<div class="col-lg-3 col-md-6 text-center">
-  <div class="mt-5">
-      <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/firebase.png" height="120" alt="Firebase"/></i>
-      <h3 class="h4 mb-2">Firebase</h3>
-      <p class="text-muted mb-0">Nivel básico</p>
-  </div>
-</div>
-         
-</div>
-  </div>
-</section>
-
-<!-- Services Work Methodologies-->
-<section class="page-section" id="services">
-  <div class="container">
-    <div class="h4 text-center mb-4 title"> </div>
-    <br> <br> <div class="h5 text-center mb-4 subtitle"><strong> <i>Metodologías de trabajo</i> </strong></div>
-      <div class="row">
-
-        <div class="col-lg-1 col-md-6 text-center">
-          <div class="mt-5">
-              <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-              <h3 class="h4 mb-2"></h3>
-              <p class="text-muted mb-0"></p>
-          </div>
-      </div>
-
-    <div class="col-lg-3 col-md-6 text-center">
-      <div class="mt-5">
-          <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/scrum.png" height="120" alt="Scrum"/></i>
-          <h3 class="h4 mb-2">Scrum</h3>
-          <p class="text-muted mb-0">Nivel intermedio</p>
-      </div>
-  </div>
-
-  <div class="col-lg-3 col-md-6 text-center">
-    <div class="mt-5">
-        <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/pmbok.jpg" height="120" alt="PMBOK"/></i>
-        <h3 class="h4 mb-2">PMBOK</h3>
-        <p class="text-muted mb-0">Nivel básico</p>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 text-center">
-  <div class="mt-5">
-      <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/metrica.png" height="120" alt="METRICA V.3"/></i>
-      <h3 class="h4 mb-2">Métrica V.3</h3>
-      <p class="text-muted mb-0">Nivel básico</p>
-  </div>
-</div>
-         
-</div>
-  </div>
-</section>
-
-<!-- Services versionControl-->
-<section class="page-section" id="services">
-  <div class="container">
-    <div class="h4 text-center mb-4 title"> </div>
-    <br> <br><div class="h5 text-center mb-4 subtitle"><strong> <i>Control de versiones</i> </strong></div>
-      <div class="row">
-
-        <div class="col-lg-1 col-md-6 text-center">
-          <div class="mt-5">
-              <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-              <h3 class="h4 mb-2"></h3>
-              <p class="text-muted mb-0"></p>
-          </div>
-      </div>
-
-    <div class="col-lg-3 col-md-6 text-center">
-      <div class="mt-5">
-          <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/github.png" height="120" alt="GitHub"/></i>
-          <h3 class="h4 mb-2">GitHub</h3>
-          <p class="text-muted mb-0">Nivel intermedio</p>
-      </div>
-  </div>
-
-  <div class="col-lg-3 col-md-6 text-center">
-    <div class="mt-5">
-        <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/git.png" height="120" alt="Git"/></i>
-        <h3 class="h4 mb-2">Git</h3>
-        <p class="text-muted mb-0">Nivel intermedio</p>
-    </div>
-</div>
-
-<div class="col-lg-3 col-md-6 text-center">
-  <div class="mt-5">
-      <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/gitlab.png" height="120" alt="GitLab"/></i>
-      <h3 class="h4 mb-2">GitLab</h3>
-      <p class="text-muted mb-0">Nivel intermedio</p>
-  </div>
-</div>
-         
-</div>
-  </div>
-</section>
-
-<!-- Services RPA-->
-<section class="page-section" id="services">
-  <div class="container">
-    <div class="h4 text-center mb-4 title"> </div>
-    <br> <br> <div class="h5 text-center mb-4 subtitle"><strong> <i>Herramientas RPA</i> </strong></div>
-      <div class="row">
-
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-              <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-              <h3 class="h4 mb-2"></h3>
-              <p class="text-muted mb-0"></p>
-          </div>
-      </div>
-
-    <div class="col-lg-3 col-md-6 text-center">
-      <div class="mt-5">
-          <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/uipath.jfif" height="120" alt="Node.js"/></i>
-          <h3 class="h4 mb-2">UiPath</h3>
-          <p class="text-muted mb-0">Nivel Básico</p>
-      </div>
-  </div>
-
-  <div class="col-lg-3 col-md-6 text-center">
-    <div class="mt-5">
-        <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/aa.png" height="120" alt="Dialogflow"/></i>
-        <h3 class="h4 mb-2">Automation Anywhere</h3>
-        <p class="text-muted mb-0">Nivel Básico</p>
-    </div>
-</div>
-</div>
-  </div>
-</section>
-
-
-<!-- Services otros-->
-<section class="page-section" id="services">
-  <div class="container">
-    <div class="h4 text-center mb-4 title"> </div>
-    <br> <br> <div class="h5 text-center mb-4 subtitle"><strong> <i>Otros</i> </strong></div>
-      <div class="row">
-
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-              <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-              <h3 class="h4 mb-2"></h3>
-              <p class="text-muted mb-0"></p>
-          </div>
-      </div>
-
-    <div class="col-lg-3 col-md-6 text-center">
-      <div class="mt-5">
-          <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/nodejs.png" height="120" alt="Node.js"/></i>
-          <h3 class="h4 mb-2">Node.js</h3>
-          <p class="text-muted mb-0">Nivel intermedio</p>
-      </div>
-  </div>
-
-  <div class="col-lg-3 col-md-6 text-center">
-    <div class="mt-5">
-        <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/dialogflow.png" height="120" alt="Dialogflow"/></i>
-        <h3 class="h4 mb-2">Dialogflow</h3>
-        <p class="text-muted mb-0">Nivel intermedio</p>
-    </div>
-</div>
-
-</div>
-  </div>
-</section>
-
-
-
-
-
-
-
-
-<!-- portfolio-->
-<div class="section" id="portfolio">
+<div class="section" id="skills">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 ml-auto mr-auto">
-        <div class="h4 text-center mb-4 title">PORTFOLIO</div>
+      <div class="col-md-12 ml-auto mr-auto">
+        <div class="h4 text-center mb-4 title"><div data-translate="professional_skills"></div></div>
         <div class="nav-align-center">
           <ul class="nav nav-pills nav-pills-primary" role="tablist">
-            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
+            <li class="nav-item2"><h6><a class="nav-link active" data-toggle="tab" href="#programming-languages" role="tablist" data-translate="programming_languages"></a></h6></li>
+            <li class="nav-item3"><h6><a class="nav-link" data-toggle="tab" href="#frameworks" role="tablist">Frameworks</a></h6></li>
+            <li class="nav-item2"><h6><a class="nav-link" data-toggle="tab" href="#SO" role="tablist" data-translate="SO"></a></h6></li>
+            <li class="nav-item2"><h6><a class="nav-link" data-toggle="tab" href="#db" role="tablist" data-translate="databases"></a></h6></li>
+            <li class="nav-item2"><h6><a class="nav-link" data-toggle="tab" href="#work_methodologies" role="tablist" data-translate="work_methodologies"></a></h6></li>
+            <li class="nav-item2"><h6><a class="nav-link" data-toggle="tab" href="#versionControl" role="tablist" data-translate="versionControl"></a></h6></li>
+            <li class="nav-item2"><h6><a class="nav-link" data-toggle="tab" href="#others" role="tablist" data-translate="others"></a></h6></li>
           </ul>
         </div>
       </div>
     </div>
+
     <div class="tab-content gallery mt-5">
-      <div class="tab-pane active" id="web-development">
+
+      <div class="tab-pane active" id="programming-languages">
         <div class="ml-auto mr-auto">
           <div class="row">
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><!-- <a target="_blank" href="https://pointbar-frontend-prod.herokuapp.com/">-->
-                  <figure class="cc-effect"><img src="images/logo.png" alt="Pointbar"/>
-                    <figcaption>
-                      <div class="h4">Pointbar</div>
-                      <p>Web desarrollada con Django + Angular</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a target="_blank" href="https://pedrosowildlifezoo.herokuapp.com/">
-                  <figure class="cc-effect"><img src="images/Pedroso-wildlife-zoo.png" alt="Pedroso-wildlife-zoo"/>
-                    <figcaption>
-                      <div class="h4">Pedroso Wildlife Zoo</div>
-                      <p>API desarrollada con Django rest framework</p>
-                    </figcaption>
-                  </figure></a></div>
-                </div>
-            
-            <div class="col-md-6">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a target="_blank" href="https://seventh-art-addicts.appspot.com/">
-                  <figure class="cc-effect"><img src="images/logo AISS.jpg" alt="Seventh Art Addicts"/>
-                    <figcaption>
-                      <div class="h4">Seventh Art Addicts</div>
-                      <p>Web desarrollada con Sprint</p>
-                    </figcaption>
-                  </figure></a></div>
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a target="_blank" href="https://github.com/decide-moltres/decide-votacion/wiki/Documento-del-proyecto-subsistema-votaci%C3%B3n">
-                  <figure class="cc-effect"><img src="images/decide.webp" alt="Image"/>
-                    <figcaption>
-                      <div class="h4">Decide</div>
-                      <p>Backend desarrollado con django</p>
-                    </figcaption>
-                  </figure></a></div>
-              </div>
 
-              <div class="col-cd-3">
-              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a target="_blank" href="https://jarvisetsii.herokuapp.com/">
-                <figure class="cc-effect"><img src="images/jarvisFace.png" alt="Image"/>
-                  <figcaption>
-                    <div class="h4">Jarvis</div>
-                    <p>ChatBot desarrollado para mi Trabajo de fin de grado. Actualmente no tiene el backend desplegado y por tanto no ofrece todas las funcionalidades desarrolladas</p>
-                  </figcaption>
-                </figure></a></div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                      <div class="mt-5">
+                          <i class="fas fa-4x fa-gem text-primary mb-4"><img src="images/python.png" width="100" height="100" alt="Python"/></i>
+                          <h3 class="h4 mb-2">Python</h3>
+                          <p class="text-muted mb-0" data-translate="intermediated_level"></p>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 text-center">
+                      <div class="mt-5">
+                          <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/java.png"  height="100" alt="Java"/></i>
+                          <h3 class="h4 mb-2">Java</h3>
+                          <p class="text-muted mb-0" data-translate="intermediated_level"></p>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/php.png" width="140" height="100" alt="Php"/></i>
+                        <h3 class="h4 mb-2">PHP</h3>
+                        <p class="text-muted mb-0" data-translate="basic_level"></p>
+                    </div>
+                  </div>
+
+                <div class="col-lg-3 col-md-6 text-center">
+                  <div class="mt-5">
+                      <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/c++.png" width="100" height="100" alt="C++"/></i>
+                      <h3 class="h4 mb-2">C++</h3>
+                      <p class="text-muted mb-0" data-translate="basic_level"></p>
+                  </div>
+                </div>
+
+                <div class="col-lg-1 col-md-6 text-center">
+                  <div class="mt-5">
+                      <i class="fas fa-4x fa-gem text-primary mb-4"></i>
+                      <h3 class="h4 mb-2"></h3>
+                      <p class="text-muted mb-0"></p>
+                  </div>
+              </div>
+          
+              <div class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/js.png" height="120" alt="Javascript"/></i>
+                    <h3 class="h4 mb-2">Javascript </h3>
+                    <p class="text-muted mb-0" data-translate="intermediated_level"></p>
+                </div>
+              </div>
+          
+              <div class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/html.png" height="120" alt="HTML"/></i>
+                    <h3 class="h4 mb-2">HTML</h3>
+                    <p class="text-muted mb-0" data-translate="intermediated_level"></p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="mt-5">
+                  <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/css.png" height="120" alt="CSS"/></i>
+                  <h3 class="h4 mb-2">CSS</h3>
+                  <p class="text-muted mb-0" data-translate="intermediated_level"></p>
+              </div>
+            </div> 
+
+                    
+                </div>
               </div>
             </div>
-            
 
+            <div class="tab-pane" id="frameworks">
+              <div class="ml-auto mr-auto">
+                <div class="row">
+
+                  <div class="col-lg-1 col-md-6 text-center">
+                    <div class="mt-5">
+                        <i class="fas fa-4x fa-gem text-primary mb-4"></i>
+                        <h3 class="h4 mb-2"></h3>
+                        <p class="text-muted mb-0"></p>
+                    </div>
+                </div>
+          
+              <div class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/angular.png" height="100" alt="Angular"/></i>
+                    <h3 class="h4 mb-2">Angular</h3>
+                    <p class="text-muted mb-0" data-translate="basic_level"></p>
+                </div>
+            </div>
+          
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="mt-5">
+                  <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/sprint.png" height="100" alt="Sprint"/></i>
+                  <h3 class="h4 mb-2">Sprint</h3>
+                  <p class="text-muted mb-0" data-translate="intermediated_level"></p>
+              </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+                <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/django.png" height="100" alt="Django"/></i>
+                <h3 class="h4 mb-2">Django</h3>
+                <p class="text-muted mb-0" data-translate="intermediated_level"></p>
+            </div>
+          </div>
+                  
+              </div>
+            </div>
+          </div>
+
+
+            <!-- SO -->
+
+            <div class="tab-pane" id="SO">
+              <div class="ml-auto mr-auto">
+                <div class="row">
+
+                  <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <i class="fas fa-4x fa-gem text-primary mb-4"></i>
+                        <h3 class="h4 mb-2"></h3>
+                        <p class="text-muted mb-0"></p>
+                    </div>
+                </div>
+
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-gem text-primary mb-4"><img src="images/windows.png" width="100" height="100" alt="Windows"/></i>
+                            <h3 class="h4 mb-2">Windows</h3>
+                            <p class="text-muted mb-0" data-translate="intermediated_level"></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 text-center">
+                        <div class="mt-5">
+                            <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/ubuntu.png"  height="100" alt="Ubuntu"/></i>
+                            <h3 class="h4 mb-2">Ubuntu</h3>
+                            <p class="text-muted mb-0" data-translate="intermediated_level"></p>
+                        </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <!-- DB -->
+
+              <div class="tab-pane" id="db">
+                <div class="ml-auto mr-auto">
+                  <div class="row">
+
+                    <div class="col-lg-3 col-md-6 text-center">
+                      <div class="mt-5">
+                          <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/mysql.png" height="120" alt="Mysql"/></i>
+                          <h3 class="h4 mb-2">Mysql</h3>
+                          <p class="text-muted mb-0" data-translate="intermediated_level"></p>
+                      </div>
+                  </div>
+                
+                  <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/postgres.png" height="120" alt="PostgreSQL"/></i>
+                        <h3 class="h4 mb-2">PostgreSQL</h3>
+                        <p class="text-muted mb-0" data-translate="intermediated_level"></p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 text-center">
+                  <div class="mt-5">
+                      <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/sqlite.png" height="120" alt="SQlite"/></i>
+                      <h3 class="h4 mb-2">SQlite</h3>
+                      <p class="text-muted mb-0" data-translate="intermediated_level"></p>
+                  </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 text-center">
+                  <div class="mt-5">
+                      <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/firebase.png" height="120" alt="Firebase"/></i>
+                      <h3 class="h4 mb-2">Firebase</h3>
+                      <p class="text-muted mb-0" data-translate="basic_level"></p>
+                  </div>
+                </div>
+
+
+
+                  <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/heroku.png" height="120" alt="Heroku"/></i>
+                        <h3 class="h4 mb-2">Heroku</h3>
+                        <p class="text-muted mb-0" data-translate="intermediated_level"></p>
+                    </div>
+                </div>
+              
+                <div class="col-lg-3 col-md-6 text-center">
+                  <div class="mt-5">
+                      <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/googlecloud.png" height="120" alt="Google Cloud"/></i>
+                      <h3 class="h4 mb-2">Google Cloud</h3>
+                      <p class="text-muted mb-0" data-translate="basic_level"></p>
+                  </div>
+              </div>
+              
+              <div class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/clever-cloud.png" height="120" alt="Clever Cloud"/></i>
+                    <h3 class="h4 mb-2">Clever Cloud</h3>
+                    <p class="text-muted mb-0" data-translate="basic_level"></p>
+                </div>
+              </div>
+              
+              <div class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/firebase.png" height="120" alt="Firebase"/></i>
+                    <h3 class="h4 mb-2">Firebase</h3>
+                    <p class="text-muted mb-0" data-translate="basic_level"></p>
+                </div>
+              </div>
+
+
+                  
+              </div>
+            </div>
+            </div>
+
+
+            <!-- work_methodologies -->
+
+            <div class="tab-pane" id="work_methodologies">
+              <div class="ml-auto mr-auto">
+                <div class="row">
+
+                  <div class="col-lg-1 col-md-6 text-center">
+                    <div class="mt-5">
+                        <i class="fas fa-4x fa-gem text-primary mb-4"></i>
+                        <h3 class="h4 mb-2"></h3>
+                        <p class="text-muted mb-0"></p>
+                    </div>
+                </div>
+
+                  <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/scrum.png" height="120" alt="Scrum"/></i>
+                        <h3 class="h4 mb-2">Scrum</h3>
+                        <p class="text-muted mb-0" data-translate="intermediated_level"></p>
+                    </div>
+                </div>
+              
+                <div class="col-lg-3 col-md-6 text-center">
+                  <div class="mt-5">
+                      <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/pmbok.jpg" height="120" alt="PMBOK"/></i>
+                      <h3 class="h4 mb-2">PMBOK</h3>
+                      <p class="text-muted mb-0" data-translate="basic_level"></p>
+                  </div>
+              </div>
+              
+              <div class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/metrica.png" height="120" alt="METRICA V.3"/></i>
+                    <h3 class="h4 mb-2">Métrica V.3</h3>
+                    <p class="text-muted mb-0" data-translate="basic_level"></p>
+                </div>
+              </div>
+
+
+                  
+              </div>
+            </div>
+            </div>
+
+
+            <!-- versionControl -->
+
+            <div class="tab-pane" id="versionControl">
+              <div class="ml-auto mr-auto">
+                <div class="row">
+
+                  <div class="col-lg-1 col-md-6 text-center">
+                    <div class="mt-5">
+                        <i class="fas fa-4x fa-gem text-primary mb-4"></i>
+                        <h3 class="h4 mb-2"></h3>
+                        <p class="text-muted mb-0"></p>
+                    </div>
+                </div>
+
+              <div class="col-lg-3 col-md-6 text-center">
+                <div class="mt-5">
+                    <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/github.png" height="120" alt="GitHub"/></i>
+                    <h3 class="h4 mb-2">GitHub</h3>
+                    <p class="text-muted mb-0" data-translate="intermediated_level"></p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="mt-5">
+                  <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/git.png" height="120" alt="Git"/></i>
+                  <h3 class="h4 mb-2">Git</h3>
+                  <p class="text-muted mb-0" data-translate="intermediated_level"></p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+                <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/gitlab.png" height="120" alt="GitLab"/></i>
+                <h3 class="h4 mb-2">GitLab</h3>
+                <p class="text-muted mb-0" data-translate="intermediated_level"></p>
+            </div>
+            </div>
+
+
+                  
+              </div>
+            </div>
+            </div>
+
+
+          <!-- others -->
+
+          <div class="tab-pane" id="others">
+            <div class="ml-auto mr-auto">
+              <div class="row">
+
+                
+
+            <div class="col-lg-3 col-md-6 text-center">
+              <div class="mt-5">
+                  <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/nodejs.png" height="120" alt="Node.js"/></i>
+                  <h3 class="h4 mb-2">Node.js</h3>
+                  <p class="text-muted mb-0" data-translate="intermediated_level"></p>
+              </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+                <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/dialogflow.png" height="120" alt="Dialogflow"/></i>
+                <h3 class="h4 mb-2">Dialogflow</h3>
+                <p class="text-muted mb-0" data-translate="intermediated_level"></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+                <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/uipath.jfif" height="120" alt="Node.js"/></i>
+                <h3 class="h4 mb-2">UiPath</h3>
+                <p class="text-muted mb-0" data-translate="basic_level"></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+              <i class="fas fa-4x fa-laptop-code text-primary mb-4"><img src="images/aa.png" height="120" alt="Dialogflow"/></i>
+              <h3 class="h4 mb-2">Automation Anywhere</h3>
+              <p class="text-muted mb-0" data-translate="intermediated_level"></p>
+          </div>
+          </div>
+              
+            </div>
           </div>
         </div>
+
       </div>
-      
     </div>
   </div>
 </div>
+
+
+
+<!-- PROYECTOS-->
+
+<div class="section" id="project">
+  <div class="container cc-reference">
+    <div class="h4 mb-4 text-center title"><div data-translate="project"></div></div>
+    <div class="card" data-aos="zoom-in">
+      <div class="carousel slide" id="cc-Indicators" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#cc-Indicators" data-slide-to="0"></li>
+          <li data-target="#cc-Indicators" data-slide-to="1"></li>
+          <li data-target="#cc-Indicators" data-slide-to="2"></li>
+          <li data-target="#cc-Indicators" data-slide-to="3"></li>
+          <li data-target="#cc-Indicators" data-slide-to="4"></li>
+          <li data-target="#cc-Indicators" data-slide-to="5"></li>
+          
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/pointbar.png" alt="pointbar"/>
+                <div class="h5 pt-2">Pointbar</div>
+                <p class="category" data-translate="pointbar_position"></p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p data-translate="pointbar_p1"></p>
+                <p data-translate="pointbar_p2"></p>
+                <p data-translate="pointbar_p3"></p>
+              </div>
+            </div>
+          </div>
+            
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/decide.webp" alt="decide"/>
+                <div class="h5 pt-2">Decide</div>
+                <p class="category" data-translate="decide_position"></p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p data-translate="decide_p1"></p>
+                <p data-translate="decide_p2"></p>
+              </div>
+            </div>
+          </div>
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/Pedroso-wildlife-zoo.png" alt="Pedroso-wildlife-zoo"/>
+              <div class="h5 pt-2">Pedroso Wildlife Zoo</div>
+              <p class="category" data-translate="pedrosowildlifezoo_position"></p>
+            </div>
+            <div class="col-lg-10 col-md-9">
+              <p data-translate="pedrosowildlifezoo_p1"></p>
+              <p data-translate="pedrosowildlifezoo_p2"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/logo AISS.jpg" alt="Seventh Art Addicts"/>
+              <div class="h5 pt-2">Seventh Art Addicts</div>
+              <p class="category" data-translate="seventhartsaddicts_position"></p>
+            </div>
+            <div class="col-lg-10 col-md-9">
+              <p data-translate="seventhartsaddicts_p1"></p>
+              <p data-translate="seventhartsaddicts_p2"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/jarvisFace.png" alt="Jarvis"/>
+              <div class="h5 pt-2">Jarvis</div>
+              <p class="category" data-translate="jarvis_position"></p>
+            </div>
+            <div class="col-lg-10 col-md-9">
+              <p data-translate="jarvis_p1"></p>
+              <p data-translate="jarvis_p2"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/airpa.png" alt="AIRPA"/>
+              <div class="h5 pt-2">AIRPA</div>
+              <p class="category" data-translate="airpa_position"></p>
+            </div>
+            <div class="col-lg-10 col-md-9">
+              <p data-translate="airpa_p1"></p>
+              <p data-translate="airpa_p2"></p>
+              <p data-translate="airpa_p3"></p>
+              <p data-translate="airpa_p4"></p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+        <a class="carousel-control-prev" href="#cc-Indicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#cc-Indicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- FORMACION-->
 
 <div class="section" id="formacion">
   <div class="container cc-education">

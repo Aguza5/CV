@@ -1,0 +1,84 @@
+{
+    "about_me": "Sobre mí",
+    "competences":"COMPETENCIAS",
+    "professional_skills_header": "HABILIDADES",
+    "project": "Proyectos",
+    "training": "Formación",
+    "experience": "Esperiencia",
+    "change_lang": "Switch to English",
+    "contact":"Contacto",
+
+    "work": "Ingeniero de software, Desarrollador web",
+
+    "contact_me": "Contáctame",
+    "cv_download": "Descargar mi CV", 
+
+
+    "button_linkedin_title": "Visita mi perfil de LinkedIn",
+    "button_github_title": "Visita mi perfil de GitHub",
+    "button_gitlab_title": "Visita mi perfil de GitLab",
+
+    "about_me_2": "SOBRE MI",
+    "about_me_p1": "Mi nombre es José Manuel Aguza Barragán. Nací el 19 de junio de 1998. Resido en <a href='https://es.wikipedia.org/wiki/El_Pedroso' target='_blank'>El Pedroso</a>, provincia de Sevilla (España).",
+    "about_me_p2":"Estudio Ingeniería informática - Ingeniería del software en la Universidad de Sevilla y trabajo en el grupo de investigación <a href='http://iwt2.org/' target='_blank'>Ingeniería Web y Testing Temprano (IWT2)</a>.",
+    "about_me_p3":"Cuento con permiso de circulación B y vehículo propio, así como disponibilidad para viajar y flexibilidad horaria.",
+    "basic_information": "INFORMACIÓN BÁSICA",
+    "email_label": "Correo electrónico",
+    "age_label": "Edad",
+    "phone_label": "Teléfono",
+    "address_label": "Dirección",
+    "address": "Calle Tarfia número 47, bajo derecha, 41012, Sevilla, España",
+    "languages_label": "Idiomas",
+    "languages": "Español, inglés",
+
+
+    "competence_1":"Trabjo en equipo",
+    "competence_2":"Motivación por el logro",
+    "competence_3":"Capacidad de aprendizaje",
+    "competence_4":"Capacidad de adaptación",
+    "competence_5":"Responsabilidad",
+    "competence_6":"Perseverancia",
+    "competence_7":"Compromiso",
+    "competence_8":"Comunicación",
+    
+
+    "professional_skills": "HABILIDADES PROFESIONALES",
+    "programming_languages": "Lenguajes",
+    "SO": "S.O.",
+    "databases": "Bases de datos & Cloud",
+    "work_methodologies":"Metodologías",
+    "versionControl":"Control de versiones",
+    "others":"Otros",
+    "basic_level": "Nivel básico",
+    "intermediated_level": "Nivel intermedio",
+    "advanced_level": "Nivel avanzado",
+
+
+    "pointbar_position": "Desarrollador back-end",
+    "pointbar_p1": "Pointbar es una aplicación web progresiva que permite a bares atraer clientes y premiar a los más fieles con puntos canjeables por comida gratis. ¿Por qué no jugar con la comida?",
+    "pointbar_p2": "Pointbar ha sido un proyecto llevado a cabo durante mi cuarto año de carrera para la asignatura Ingeniería del Software y Práctica Profesional (ISPP). Este proyecto fue galardonado con matrícula de honor.",
+    "pointbar_p3":"Puede encontrar más información sobre el proyecto <a href='https://www.youtube.com/channel/UCM3sSHPrM2MVzG21C70PVuw?app=desktop' target='_blank'>Aquí</a>.",
+
+    "decide_position": "Desarrollador",
+    "decide_p1": "Implementación de una plataforma de voto electrónico seguro, asegurando la anonimicidad y el secreto del voto.",
+    "decide_p2": "Se trata de un proyecto educativo, pensado para el estudio de sistemas de votación, por lo que prima la simplicidad por encima de la eficiencia cuando sea posible. Por lo tanto se asumen algunas carencias para permitir que sea entendible y extensible.",
+    
+    "pedrosowildlifezoo_position": "Desarrollador",
+    "pedrosowildlifezoo_p1": "Implementación de una plataforma de voto electrónico seguro, asegurando la anonimicidad y el secreto del voto.",
+    "pedrosowildlifezoo_p2": "Se trata de un proyecto educativo, pensado para el estudio de sistemas de votación, por lo que prima la simplicidad por encima de la eficiencia cuando sea posible. Por lo tanto se asumen algunas carencias para permitir que sea entendible y extensible.",
+    
+    "seventhartsaddicts_position": "Desarrollador",
+    "seventhartsaddicts_p1": "Implementación de una plataforma de voto electrónico seguro, asegurando la anonimicidad y el secreto del voto.",
+    "seventhartsaddicts_p2": "Se trata de un proyecto educativo, pensado para el estudio de sistemas de votación, por lo que prima la simplicidad por encima de la eficiencia cuando sea posible. Por lo tanto se asumen algunas carencias para permitir que sea entendible y extensible.",
+    
+    "jarvis_position": "Todas fue mi TFG",
+    "jarvis_p1": "Implementación de una plataforma de voto electrónico seguro, asegurando la anonimicidad y el secreto del voto.",
+    "jarvis_p2": "Se trata de un proyecto educativo, pensado para el estudio de sistemas de votación, por lo que prima la simplicidad por encima de la eficiencia cuando sea posible. Por lo tanto se asumen algunas carencias para permitir que sea entendible y extensible.",
+    
+    
+    "airpa_position": "Investigador",
+    "airpa_p1": "Proyecto de inovación (I+D+I) dedicado a Potenciar las soluciones RPA (Robotic Process Automation) con componentes AI (Artificial Intelligence), con el objeto de reducir la participación humana en la ejecución y en el mantenimiento de los procesos que se automatizan.",
+    "airpa_p2": "El proyecto ha sido desarrollado por la colaboración entre Servinform y IWT2",
+    "airpa_p3": "Términos Clave: Automatización Robótica de Procesos, Inteligencia Artificial, Automatización Robótica de Procesos Cognitivos, Aprendizaje Automático, Procesamiento del Lenguaje Natural, Ciencia de Datos, Consultoría de Datos.",
+    "airpa_p4": "Puede consultar más información sobre el proyecto <a href='https://www.servinform.es/wp-content/uploads/2020/02/Servinform-AIRPA-Publicidad-web-corporativa.pdf' target='_blank'>Aquí</a>."
+}

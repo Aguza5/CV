@@ -1,5 +1,43 @@
-// Add your javascript here
-// Don't forget to add it into respective layouts where this js file is needed
+//start change lang
+var langs = ['en', 'es'];
+var current_lang_index = 1;
+var current_lang = langs[current_lang_index];
+
+var request = new XMLHttpRequest();
+request.responseType = 'json';
+request.open("GET", "./langs/es.json", true);
+request.onload  = function() {
+   translate(request);
+};
+request.send(null)
+
+window.change_lang = function() {
+  current_lang_index = ++current_lang_index % langs.length;
+  current_lang = langs[current_lang_index];
+  request.open("GET", "./langs/" + current_lang + ".json", true)
+  request.onload  = function() {
+    translate(request);
+ };
+ request.send(null)
+}
+
+function translate(request) {
+  $("[data-translate]").each(function(){
+    var key = $(this).data('translate');
+    $(this).html(request.response[key] || "N/A");
+
+    document.getElementById('button_linkedin').setAttribute('data-original-title', request.response["button_linkedin_title"]);
+    document.getElementById('button_github').setAttribute('data-original-title', request.response["button_github_title"]);
+    document.getElementById('button_gitlab').setAttribute('data-original-title', request.response["button_gitlab_title"]);
+  });
+}
+
+$("#change_lang").click(function(e){
+  e.preventDefault();
+  change_lang();
+});
+
+// end change lang
 
 $(document).ready(function() {
   AOS.init( {
@@ -19,7 +57,7 @@ $('a.smooth-scroll')
   ) {
     // Figure out element to scroll to
     var target = $(this.hash);
-    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    if (this.hash != "") {target = target.length ? target : $('[name=' + this.hash.slice(1) + ']'); }
     // Does a scroll target exist?
     if (target.length) {
       // Only prevent default if animation is actually gonna happen
