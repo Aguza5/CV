@@ -2,10 +2,10 @@
     "about_me": "About me",
     "competences":"COMPETENCES",
     "professional_skills_header": "SKILLS",
-    "project": "Projects",
-    "training": "training",
-    "experience": "Experience",
-    "contact":"Contact",
+    "project": "PROJECTsS",
+    "training": "TRAINING",
+    "experience": "EXPERIENCE",
+    "contact":"CONTACT",
     "change_lang": "Cambiar a español",
 
     "work": "Software Engineer, Web Developer",
@@ -19,9 +19,9 @@
     "button_gitlab_title": "Check my GitLab profile",
     
     "about_me_2": "ABOUT ME",
-    "about_me_p1": "English description about me",
-    "about_me_p2":"Estudio Ingeniería informática - Ingeniería del software en la Universidad de Sevilla y trabajo en el grupo de investigación <a href='http://iwt2.org/' target='_blank'>Ingeniería Web y Testing Temprano (IWT2)</a>.",
-    "about_me_p3":"Cuento con permiso de circulación B y vehículo propio, así como disponibilidad para viajar y flexibilidad horaria.",
+    "about_me_p1": "Hello! I am José Manuel Aguza Barragán. I am a Software Engineer specialized in web development, currently working for the multinational <a href='https://www.everis.com/spain/es/home-spain' target='_blank'>Everis</a>.",
+    "about_me_p2":"I was born on June 19, 1998 in en <a href='https://es.wikipedia.org/wiki/El_Pedroso' target='_blank'>El Pedroso</a> but right now I reside in Seville (Spain). I started my studies in Computer Engineering - Software Engineering in 2016, at Escuela Técnica Superior de Ingeniería Informática at the University of Seville.",
+    "about_me_p3":"I have a B driving licence and my own vehicle, as well as availability to travel and flexible working hours.",
     "basic_information": "BASIC INFORMATION",
     "email_label": "Email",
     "age_label": "Age",
@@ -53,33 +53,83 @@
     "intermediated_level": "Intermediated level",
     "advanced_level": "Advanced level",
 
-
     "pointbar_position": "Back-end developer",
-    "pointbar_p1": "Pointbar es una aplicación web progresiva que permite a bares atraer clientes y premiar a los más fieles con puntos canjeables por comida gratis. ¿Por qué no jugar con la comida?",
-    "pointbar_p2": "Pointbar ha sido un proyecto llevado a cabo durante mi cuarto año de carrera para la asignatura Ingeniería del Software y Práctica Profesional (ISPP). Este proyecto fue galardonado con matrícula de honor.",
-    "pointbar_p3":"Puede encontrar más información sobre el proyecto <a href='https://www.youtube.com/channel/UCM3sSHPrM2MVzG21C70PVuw?app=desktop' target='_blank'>Aquí</a>.",
+    "pointbar_p1": "Pointbar is a progressive web application focused on helping hospitality locations to build customer loyalty. The application was developed with Django-rest-framework for the back end and Angular for the front end.",
+    "pointbar_p2": "The project was created for the fourth year course subject 'Ingeniería del Software y Práctica Profesional (ISPP)'. My colleagues and I (a team of 12 people) were recognized with distinction for the project developed.",
+    "pointbar_p3":"You can find more information about the project <a href='https://www.youtube.com/channel/UCM3sSHPrM2MVzG21C70PVuw?app=desktop' target='_blank'>here</a>.",
 
-    "decide_position": "Developer",
-    "decide_p1": "Implementación de una plataforma de voto electrónico seguro, asegurando la anonimicidad y el secreto del voto.",
-    "decide_p2": "Se trata de un proyecto educativo, pensado para el estudio de sistemas de votación, por lo que prima la simplicidad por encima de la eficiencia cuando sea posible. Por lo tanto se asumen algunas carencias para permitir que sea entendible y extensible.",
+    "decide_position": "Full stack developer",
+    "decide_p1": "Decide is a secure electronic voting platform that guarantees the anonymity and secrecy of the vote.",
+    "decide_p2": "This is an educational project created for the fourth year course subject 'Evolución y Gestión de la Configuración', which was based on adding new functionalities to a legacy system. The project was implemented in Django.", 
     
-    "pedrosowildlifezoo_position": "Desarrollador",
-    "pedrosowildlifezoo_p1": "Implementación de una plataforma de voto electrónico seguro, asegurando la anonimicidad y el secreto del voto.",
-    "pedrosowildlifezoo_p2": "Se trata de un proyecto educativo, pensado para el estudio de sistemas de votación, por lo que prima la simplicidad por encima de la eficiencia cuando sea posible. Por lo tanto se asumen algunas carencias para permitir que sea entendible y extensible.",
+    "pedrosowildlifezoo_position": "Full stack developer",
+    "pedrosowildlifezoo_p1": "Pedroso Wildlife Zoo is an API created with Django-rest-framework and PostgreSQL as database that facilitates the management of a hypothetical zoo.",
+    "pedrosowildlifezoo_p2": "This web application was developed in the fourth year course subject 'Complemento de Bases de Datos'. It is the back-end of a hypothetical web application that would be used to manage a zoo.",
+    "pedrosowildlifezoo_p3": "You can find the API <a href='http://pedrosowildlifezoo.herokuapp.com/' target='_blank'>here</a>.",
+
+    "seventhartsaddicts_position": "Full stack developer",
+    "seventhartsaddicts_p1": "Hybrid web application or mashup developed in Spring framework that allows us to search for a movie by its name, returning information about it including its trailer and its book if it exists.",
+    "seventhartsaddicts_p2": "This is an educational project created for the second year course subject 'Arquitectura e Integración de Sistemas Software'.",
+    "seventhartsaddicts_p3": "You can find the web <a href='https://seventh-art-addicts.appspot.com/' target='_blank'>here</a>.",
     
-    "seventhartsaddicts_position": "Desarrollador",
-    "seventhartsaddicts_p1": "Implementación de una plataforma de voto electrónico seguro, asegurando la anonimicidad y el secreto del voto.",
-    "seventhartsaddicts_p2": "Se trata de un proyecto educativo, pensado para el estudio de sistemas de votación, por lo que prima la simplicidad por encima de la eficiencia cuando sea posible. Por lo tanto se asumen algunas carencias para permitir que sea entendible y extensible.",
+    "jarvis_position": "Full Stack",
+    "jarvis_p1": "Jarvis is a conversational assistant or chatbot capable of assisting in the most common processes carried out at the ETSII, such as change of groups, start external practices or calculate the price of a registration fee.",
+    "jarvis_p2": "I developed this project for my final degree project, in which I obtained a mark of 9.",
+    "jarvis_p3": "You can find the web with the chatbot <a href='https://jarvisetsii.herokuapp.com/' target='_blank'>here</a> or you can search in Telegram the user @Jarvis_us_bot. But you won't be able to talk to him much since the backend is not activated.",
+
     
-    "jarvis_position": "Todas fue mi TFG",
-    "jarvis_p1": "Implementación de una plataforma de voto electrónico seguro, asegurando la anonimicidad y el secreto del voto.",
-    "jarvis_p2": "Se trata de un proyecto educativo, pensado para el estudio de sistemas de votación, por lo que prima la simplicidad por encima de la eficiencia cuando sea posible. Por lo tanto se asumen algunas carencias para permitir que sea entendible y extensible.",
+    "airpa_position": "Researcher",
+    "airpa_p1": "Innovation project (R+D+I) dedicated to promoting RPA (Robotic Process Automation) solutions with AI (Artificial Intelligence) components, with the aim of reducing human involvement in the execution and maintenance of the processes being automated.",
+    "airpa_p2": "The project has been developed by the collaboration between Servinform and IWT2 (where I was working).",
+    "airpa_p3": "More information on the project can be found <a href='https://www.servinform.es/wp-content/uploads/2020/02/Servinform-AIRPA-Publicidad-web-corporativa.pdf' target='_blank'>here</a>.",
     
+
+    "us_time": "19/09/2016 - 01/03/2021",
+    "us_type": "Degree",
+    "us_type1": "Computer Engineering - Software Engineering",
+    "us_place": "University of Seville",
+    "us_description": "I finished my degree in Software Engineering in the first semester of 2021. I obtained an average of 8.18 with 5 distinctions marks and a mark of 9 in the final degree project.",
+    "us_description1": "It should be noted that I should have finished my degree in 2020 but I had to take an extra semester because I could not do my internship due to the COVID-19 pandemic.",
+
+    "cyber_time": "2020",
+    "cyber_type": "Certificate",
+    "cyber_type1": "Cybersecurity training",
+    "cyber_place": "onGranada Tech City",
+    "cyber_description": "I have a 64 hour course on cybersecurity fundamentals. The certificate for this course can be found <a target='_blank' href='docs/certificado_curso_ciberseguridad_ofuscado.pdf' data-aos='zoom-in' data-aos-anchor='data-aos-anchor'>here</a>.",
     
-    "airpa_position": "Research",
-    "airpa_p1": "Proyecto de inovación (I+D+I) dedicado a Potenciar las soluciones RPA (Robotic Process Automation) con componentes AI (Artificial Intelligence), con el objeto de reducir la participación humana en la ejecución y en el mantenimiento de los procesos que se automatizan.",
-    "airpa_p2": "El proyecto ha sido desarrollado por la colaboración entre Servinform y IWT2",
-    "airpa_p3":"Topics: Robotic Process Automation (RPA), Artificial Intelligence (AI), Cognitive Robotic Process Automation (CRPA), Machine Learning (ML), Natural Language Processing (NLP), Data Science, Data Consulting.",
-    "airpa_p4": "Puede consultar más información sobre el proyecto <a href='https://www.servinform.es/wp-content/uploads/2020/02/Servinform-AIRPA-Publicidad-web-corporativa.pdf' target='_blank'>Aquí</a>."
-    
-}    
+    "english_time": "2020",
+    "english_type": "Certificate",
+    "english_type1": "English level B1",
+    "english_place": "Cambridge",
+    "english_description": "I have the english level B1 certificate by Cambridge.",
+
+    "bach_time": "2014 - 2016",
+    "bach_type": "General Certificate of Education",
+    "bach_type1": "High school diploma with specialization in technology",
+    "bach_place": "I.E.S. San Fernando, Constantina (Sevilla)",
+    "bach_description": "I studied Science and Technology modality, in which I obtained 9,3 as an average mark.",
+
+    "eso_time": "2010 - 2014",
+    "eso_type": "Secondary Education",
+    "eso_type1": "General Certificate of Secondary Education",
+    "eso_place": "I.E.S Aníbal González, El Pedroso (Sevilla)",
+    "eso_description": "I studied secondary education in the science modality, in which I obtained 8,68 as an average mark.",
+
+
+    "iwt2_time": "15/09/2020 - 14/03/2021",
+    "iwt2_type": "Research group",
+    "iwt2_job": "Researcher and developer",
+    "iwt2_description": "I worked for 6 months in the research industry developing tasks related to robotic process automation (RPA) and artificial intelligence (AI) for the research group of the niversity of Seville IWT2 in collaboration with the Servinform company.",
+    "iwt2_description1": "I decided to leave this position to explore new challenges outside the research field.",
+
+
+    "everis_time": "15/03/2020 - Today",
+    "everis_type": "Consulting and outsourcing",
+    "everis_job": "Solution assistant",
+    "everis_description": "I am currently working as a Solution assistant for the multinational company Everis, specifically I offer my services for Everis Seville.",
+    "everis_description1": "My position in the projects in which I work is junior developer.",
+
+
+    "copy": "&copy; José Manuel Aguza Barragán. All rights reserved",
+    "update":"Last update: 21/03/2021"
+}

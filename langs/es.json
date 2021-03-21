@@ -2,9 +2,9 @@
     "about_me": "Sobre mí",
     "competences":"COMPETENCIAS",
     "professional_skills_header": "HABILIDADES",
-    "project": "Proyectos",
-    "training": "Formación",
-    "experience": "Experiencia",
+    "project": "PROYECTOS",
+    "training": "FORMACIÓN",
+    "experience": "EXPERIENCIA",
     "change_lang": "Switch to English",
     "contact":"Contacto",
 
@@ -19,8 +19,8 @@
     "button_gitlab_title": "Visita mi perfil de GitLab",
 
     "about_me_2": "SOBRE MI",
-    "about_me_p1": "Mi nombre es José Manuel Aguza Barragán. Nací el 19 de junio de 1998. Resido en <a href='https://es.wikipedia.org/wiki/El_Pedroso' target='_blank'>El Pedroso</a>, provincia de Sevilla (España).",
-    "about_me_p2":"Estudio Ingeniería informática - Ingeniería del software en la Universidad de Sevilla y trabajo en el grupo de investigación <a href='http://iwt2.org/' target='_blank'>Ingeniería Web y Testing Temprano (IWT2)</a>.",
+    "about_me_p1": "¡Hola! Soy José Manuel Aguza Barragán. Soy Ingeniero de Software especializado en el desarrollo de aplicaciones web, actualmente trabajando para la multinacional <a href='https://www.everis.com/spain/es/home-spain' target='_blank'>Everis</a>.",
+    "about_me_p2":"Nací el 19 de junio de 1998 en <a href='https://es.wikipedia.org/wiki/El_Pedroso' target='_blank'>El Pedroso</a> pero ahora mismo resido en Sevilla (España). Comencé mis estudios de Ingeniería Informática - Ingeniería del Software en 2016, en la Escuela Técnica Superior de Ingeniería Informática de la Universidad de Sevilla.",
     "about_me_p3":"Cuento con permiso de circulación B y vehículo propio, así como disponibilidad para viajar y flexibilidad horaria.",
     "basic_information": "INFORMACIÓN BÁSICA",
     "email_label": "Correo electrónico",
@@ -53,32 +53,85 @@
     "intermediated_level": "Nivel intermedio",
     "advanced_level": "Nivel avanzado",
 
+    "us_time": "19/09/2016 - 01/03/2021",
+    "us_type": "Grado",
+    "us_type1": "Ingeniería Informática - Ingeniería del Software",
+    "us_place": "Universidad de Sevilla",
+    "us_description": "Finalicé el grado de Ingeniería del Software en el primer cuatrimestre de 2021. Obtuve una media de 8,18 con 5 matrículas de honor y una calificación de 9 en el proyecto de fin de grado.",
+    "us_description1": "Cabe desatacar que debería haber finalizado el grado en 2020 pero tuve que cursar un cuatrimestre más debido a que no pude realizar mis practicas por la pandemia de la COVID-19.",
+
 
     "pointbar_position": "Desarrollador back-end",
-    "pointbar_p1": "Pointbar es una aplicación web progresiva que permite a bares atraer clientes y premiar a los más fieles con puntos canjeables por comida gratis. ¿Por qué no jugar con la comida?",
-    "pointbar_p2": "Pointbar ha sido un proyecto llevado a cabo durante mi cuarto año de carrera para la asignatura Ingeniería del Software y Práctica Profesional (ISPP). Este proyecto fue galardonado con matrícula de honor.",
-    "pointbar_p3":"Puede encontrar más información sobre el proyecto <a href='https://www.youtube.com/channel/UCM3sSHPrM2MVzG21C70PVuw?app=desktop' target='_blank'>Aquí</a>.",
+    "pointbar_p1": "Pointbar es una aplicación web progresiva centrada en ayudar a los locales de hostelería a fidelizar clientes. La aplicación fue desarrollada con las tecnologías Django-rest-framework para el back end y Angular para el Front end.",
+    "pointbar_p2": "El proyecto fue creado para la asignatura de cuarto curso Ingeniería del Software y Práctica Profesional (ISPP). Mis compañeros y yo (equipo compuesto por 12 personas) recibimos la matrícula de honor por el proyecto desarrollado.",
+    "pointbar_p3":"Puede encontrar más información sobre el proyecto <a href='https://www.youtube.com/channel/UCM3sSHPrM2MVzG21C70PVuw?app=desktop' target='_blank'>aquí</a>.",
 
     "decide_position": "Desarrollador",
-    "decide_p1": "Implementación de una plataforma de voto electrónico seguro, asegurando la anonimicidad y el secreto del voto.",
-    "decide_p2": "Se trata de un proyecto educativo, pensado para el estudio de sistemas de votación, por lo que prima la simplicidad por encima de la eficiencia cuando sea posible. Por lo tanto se asumen algunas carencias para permitir que sea entendible y extensible.",
+    "decide_p1": "Decide es una plataforma de voto electrónico seguro que garantiza la anonimicidad y el secreto del voto.",
+    "decide_p2": "Se trata de un proyecto educativo creado para la asignatura de cuarto curso Evolución y Gestión de la Configuración, que se basó en añadir nuevas funcionalidades a un sistema heredado. El proyecto fue implementado en Django.", 
     
     "pedrosowildlifezoo_position": "Desarrollador",
-    "pedrosowildlifezoo_p1": "Implementación de una plataforma de voto electrónico seguro, asegurando la anonimicidad y el secreto del voto.",
-    "pedrosowildlifezoo_p2": "Se trata de un proyecto educativo, pensado para el estudio de sistemas de votación, por lo que prima la simplicidad por encima de la eficiencia cuando sea posible. Por lo tanto se asumen algunas carencias para permitir que sea entendible y extensible.",
-    
+    "pedrosowildlifezoo_p1": "Pedroso Wildlife Zoo es una API creada con Django-rest-framework y PostgreSQL como base de datos que facilita la gestión de un hipotético zoológico.",
+    "pedrosowildlifezoo_p2": "Esta aplicación web fue desarrollada en la asignatura de cuarto curso Complemento de Bases de Datos. Constituye el back-end de una aplicación web hipotética que se utilizaría para gestionar un zoológico.",
+    "pedrosowildlifezoo_p3": "Puedes encontrar la API <a href='http://pedrosowildlifezoo.herokuapp.com/' target='_blank'>aquí</a>.",
+
     "seventhartsaddicts_position": "Desarrollador",
-    "seventhartsaddicts_p1": "Implementación de una plataforma de voto electrónico seguro, asegurando la anonimicidad y el secreto del voto.",
-    "seventhartsaddicts_p2": "Se trata de un proyecto educativo, pensado para el estudio de sistemas de votación, por lo que prima la simplicidad por encima de la eficiencia cuando sea posible. Por lo tanto se asumen algunas carencias para permitir que sea entendible y extensible.",
-    
-    "jarvis_position": "Todas fue mi TFG",
-    "jarvis_p1": "Implementación de una plataforma de voto electrónico seguro, asegurando la anonimicidad y el secreto del voto.",
-    "jarvis_p2": "Se trata de un proyecto educativo, pensado para el estudio de sistemas de votación, por lo que prima la simplicidad por encima de la eficiencia cuando sea posible. Por lo tanto se asumen algunas carencias para permitir que sea entendible y extensible.",
-    
+    "seventhartsaddicts_p1": "Aplicación web híbrida o mashup desarrollado en Spring framework que nos permite buscar una película por su nombre, devolviendo información sobre la misma incluyendo su tráiler y su libro si existe.",
+    "seventhartsaddicts_p2": "Se trata de un proyecto educativo creado para la asignatura de segundo curso Arquitectura e Integración de Sistemas Software.",
+    "seventhartsaddicts_p3": "Puedes encontrar la web <a href='https://seventh-art-addicts.appspot.com/' target='_blank'>aquí</a>.",
+
+    "jarvis_position": "Full Stack",
+    "jarvis_p1": "Jarvis es un asistente conversacional o chatbot capaz de ayudar en los procesos más comúnmente realizados en la ETSII, tales como, cambiarse de grupo, iniciar las prácticas externas o calcular el precio de una matrícula.",
+    "jarvis_p2": "Desarrollé este proyecto para mi trabajo final de grado, en el cual obtuve una calificación de 9.",
+    "jarvis_p3": "Puedes encontrar la web con el chatbot <a href='https://jarvisetsii.herokuapp.com/' target='_blank'>aquí</a> o buscar en Telegram al usuario @Jarvis_us_bot. Pero no podrás hablar mucho con el puesto que el backend no está activado",
+
     
     "airpa_position": "Investigador",
-    "airpa_p1": "Proyecto de inovación (I+D+I) dedicado a Potenciar las soluciones RPA (Robotic Process Automation) con componentes AI (Artificial Intelligence), con el objeto de reducir la participación humana en la ejecución y en el mantenimiento de los procesos que se automatizan.",
+    "airpa_p1": "Proyecto de inovación (I+D+I) dedicado a potenciar las soluciones RPA (Robotic Process Automation) con componentes AI (Artificial Intelligence), con el objeto de reducir la participación humana en la ejecución y en el mantenimiento de los procesos que se automatizan.",
     "airpa_p2": "El proyecto ha sido desarrollado por la colaboración entre Servinform y IWT2",
-    "airpa_p3": "Términos Clave: Automatización Robótica de Procesos, Inteligencia Artificial, Automatización Robótica de Procesos Cognitivos, Aprendizaje Automático, Procesamiento del Lenguaje Natural, Ciencia de Datos, Consultoría de Datos.",
-    "airpa_p4": "Puede consultar más información sobre el proyecto <a href='https://www.servinform.es/wp-content/uploads/2020/02/Servinform-AIRPA-Publicidad-web-corporativa.pdf' target='_blank'>Aquí</a>."
+    "airpa_p3": "Puede consultar más información sobre el proyecto <a href='https://www.servinform.es/wp-content/uploads/2020/02/Servinform-AIRPA-Publicidad-web-corporativa.pdf' target='_blank'>aquí</a>.",
+    
+
+    "cyber_time": "2020",
+    "cyber_type": "Certificado",
+    "cyber_type1": "Acción formativa en ciberseguridad",
+    "cyber_place": "onGranada Tech City",
+    "cyber_description": "Dispongo de un curso de 64 horas sobre fundamentos en ciberseguridad. El certificado de dicho curso puede ser encontrado <a target='_blank' href='docs/certificado_curso_ciberseguridad_ofuscado.pdf' data-aos='zoom-in' data-aos-anchor='data-aos-anchor'>aquí</a>.",
+    
+    "english_time": "2020",
+    "english_type": "Certificado",
+    "english_type1": "Nivel B1 de inglés",
+    "english_place": "Cambridge",
+    "english_description": "Dispongo del certificado de B1 expedido por Cambridge.",
+
+    "bach_time": "2014 - 2016",
+    "bach_type": "Bachillerato",
+    "bach_type1": "Bachillerato Tecnológico",
+    "bach_place": "I.E.S. San Fernando, Constantina (Sevilla)",
+    "bach_description": "Cursé bachillerato tecnológico donde obtuve un 9,3 de nota media.",
+
+    "eso_time": "2010 - 2014",
+    "eso_type": "Secundaria",
+    "eso_type1": "Educación Secundaria Obligatoria",
+    "eso_place": "I.E.S Aníbal González, El Pedroso (Sevilla)",
+    "eso_description": "Cursé la Educación Secundaria Obligatoria en la modalidad de Ciencias, en la que obtuve un 8,68 como nota media.",
+    
+
+
+
+    "iwt2_time": "15/09/2020 - 14/03/2021",
+    "iwt2_type": "Grupo de investigación",
+    "iwt2_job": "Investigador y desarrollador",
+    "iwt2_description": "Trabaje durante 6 meses en la industria de la investigación desarrollando tareas relacionadas con la automatización robótica de procesos (RPA) y con la inteligencia artificial (AI) para el grupo de investigación de la Universidad de Sevilla IWT2 en colaboración con la empresa Servinform.",
+    "iwt2_description1": "Decidí dejar este puesto para explorar nuevos retos fuera del campo de la investigación.",
+
+
+    "everis_time": "15/03/2020 - Actualidad",
+    "everis_type": "Consultoría y outsourcing",
+    "everis_job": "Solution assistant",
+    "everis_description": "Actualmente me encuentro trabajando como Solution assistant para la multinacional Everis, en concreto ofrezco mis servicios para Everis Sevilla.",
+    "everis_description1": "Mi posición dentro de los proyectos en los que trabajo es programador junior.",
+    
+    "copy": "&copy; José Manuel Aguza Barragán. Todos los derechos reservados",
+    "update":"Última actualización: 21/03/2021"
 }
