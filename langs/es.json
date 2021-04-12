@@ -1,4 +1,5 @@
 {
+    "cv_pdf": "<p class='category text-white' data-translate='work'></p><a class='btn btn-primary smooth-scroll mr-2' href='#contact' data-aos='zoom-in' data-aos-anchor='data-aos-anchor'>Contáctame</a><a class='btn btn-primary' target='_blank' href='docs/cv_espanol.pdf' data-aos='zoom-in' data-aos-anchor='data-aos-anchor'>Descargar mi CV</a>",
     "about_me": "Sobre mí",
     "competences":"COMPETENCIAS",
     "professional_skills_header": "HABILIDADES",
@@ -11,7 +12,6 @@
     "work": "Ingeniero de software, Desarrollador web",
 
     "contact_me": "Contáctame",
-    "cv_download": "Descargar mi CV", 
 
 
     "button_linkedin_title": "Visita mi perfil de LinkedIn",
@@ -19,7 +19,7 @@
     "button_gitlab_title": "Visita mi perfil de GitLab",
 
     "about_me_2": "SOBRE MI",
-    "about_me_p1": "¡Hola! Soy José Manuel Aguza Barragán. Soy Ingeniero de Software especializado en el desarrollo de aplicaciones web, actualmente trabajando para la multinacional <a href='https://www.everis.com/spain/es/home-spain' target='_blank'>Everis</a>.",
+    "about_me_p1": "¡Hola! Soy José Manuel Aguza Barragán, Ingeniero de Software especializado en el desarrollo de aplicaciones web. Actualmente estoy trabajando para la multinacional <a href='https://www.everis.com/spain/es/home-spain' target='_blank'>Everis</a>.",
     "about_me_p2":"Nací el 19 de junio de 1998 en <a href='https://es.wikipedia.org/wiki/El_Pedroso' target='_blank'>El Pedroso</a> pero ahora mismo resido en Sevilla (España). Comencé mis estudios de Ingeniería Informática - Ingeniería del Software en 2016, en la Escuela Técnica Superior de Ingeniería Informática de la Universidad de Sevilla.",
     "about_me_p3":"Cuento con permiso de circulación B y vehículo propio, así como disponibilidad para viajar y flexibilidad horaria.",
     "basic_information": "INFORMACIÓN BÁSICA",

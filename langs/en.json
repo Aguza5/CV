@@ -1,4 +1,5 @@
 { 
+    "cv_pdf": "<p class='category text-white' data-translate='work'></p><a class='btn btn-primary smooth-scroll mr-2' href='#contact' data-aos='zoom-in' data-aos-anchor='data-aos-anchor'>Contact me</a><a class='btn btn-primary' target='_blank' href='docs/cv_ingles.pdf' data-aos='zoom-in' data-aos-anchor='data-aos-anchor'>Download my CV</a>",
     "about_me": "About me",
     "competences":"COMPETENCES",
     "professional_skills_header": "SKILLS",
@@ -11,7 +12,6 @@
     "work": "Software Engineer, Web Developer",
 
     "contact_me": "Contact me",
-    "cv_download": "Download my CV",
     
     
     "button_linkedin_title": "Check my LinkedIn profile",
@@ -19,7 +19,7 @@
     "button_gitlab_title": "Check my GitLab profile",
     
     "about_me_2": "ABOUT ME",
-    "about_me_p1": "Hello! I am José Manuel Aguza Barragán. I am a Software Engineer specialized in web development, currently working for the multinational <a href='https://www.everis.com/spain/es/home-spain' target='_blank'>Everis</a>.",
+    "about_me_p1": "Hello! I am José Manuel Aguza Barragán, Software Engineer specialized in web development, currently working for the multinational <a href='https://www.everis.com/spain/es/home-spain' target='_blank'>Everis</a>.",
     "about_me_p2":"I was born on June 19, 1998 in en <a href='https://es.wikipedia.org/wiki/El_Pedroso' target='_blank'>El Pedroso</a> but right now I reside in Seville (Spain). I started my studies in Computer Engineering - Software Engineering in 2016, at Escuela Técnica Superior de Ingeniería Informática at the University of Seville.",
     "about_me_p3":"I have a B driving licence and my own vehicle, as well as availability to travel and flexible working hours.",
     "basic_information": "BASIC INFORMATION",
